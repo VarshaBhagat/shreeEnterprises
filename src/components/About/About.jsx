@@ -7,7 +7,7 @@ export default function About() {
       <p>
         Shree Enterprises Water Bottle specializes in providing customized
         water bottles in 300ml and 500ml sizes. Our unique bottles cater
-        to various small marriages, birthdays, and resort gatherings.
+        to various marriages, birthdays, and resort gatherings.
       </p>
     </section>
   );

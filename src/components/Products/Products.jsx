@@ -6,6 +6,8 @@ const bottle1 ='https://images.unsplash.com/photo-1523362628745-0c100150b504'
 const bottle2 ='https://images.unsplash.com/photo-1523362628745-0c100150b504'
 const bottle3 ='https://images.unsplash.com/photo-1523362628745-0c100150b504'
 const bottle4 ='https://images.unsplash.com/photo-1523362628745-0c100150b504'
+import BottleCarousel from "../BottleCarousel/BottleCarousel"
+import { bottles } from "../../data/bottles";
 
 const items = [bottle1, bottle2, bottle3, bottle4];
 
@@ -14,11 +16,7 @@ export default function Products() {
     <section className="products">
       <h3>Our Bottles</h3>
       <div className="products__grid">
-        {items.map((img, i) => (
-          <div key={i} className="product">
-            <img src={img} alt="Bottle" />
-          </div>
-        ))}
+       <BottleCarousel bottles={bottles}/>
       </div>
     </section>
   );

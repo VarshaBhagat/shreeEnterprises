@@ -1,36 +1,35 @@
-@use '../../styles/variables' as *;
-
 .hero {
+    min-height: calc(100vh - 80px); /* header height */
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 80vh;
+}
 
-  &__content {
-    background: $gray;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 80px;
+.hero-content {
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-    h2 {
-      font-size: 48px;
-      line-height: 1.2;
-      margin-bottom: 30px;
-    }
+.hero-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
-    button {
-      width: 140px;
-      padding: 12px;
-      background: $white;
-      color: $black;
-      border: none;
-      cursor: pointer;
-    }
+/* MOBILE */
+@media (max-width: 768px) {
+  .hero {
+    grid-template-columns: 1fr;
   }
 
-  &__image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  .hero-content {
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .hero-image {
+    order: -1;
   }
 }

@@ -1,16 +1,22 @@
 .header {
+  position: sticky;   /* stays on top */
+  top: 0;
+  z-index: 1000;
+  background: #000;
+  border-bottom: 1px solid #222;
+}
+
+.header-inner {
+  max-width: 1200px;
+  margin: auto;
+  padding: 1.2rem 2rem;
   display: flex;
   justify-content: space-between;
-  padding: 20px 60px;
-  background: #000;
-
-  nav a {
-    margin-left: 24px;
-    cursor: pointer;
-    opacity: 0.8;
-
-    &:hover {
-      opacity: 1;
-    }
-  }
+  align-items: center;
 }
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
