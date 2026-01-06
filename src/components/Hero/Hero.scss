@@ -1,5 +1,6 @@
 .hero {
-    min-height: calc(100vh - 80px); /* header height */
+  min-height: calc(100vh - 80px);
+  /* header height */
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -10,6 +11,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: #2b2b2b;
 }
 
 .hero-image img {

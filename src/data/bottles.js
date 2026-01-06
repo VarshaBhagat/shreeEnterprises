@@ -6,7 +6,7 @@ export const bottles = [
      name: "500ml Mineral Water Bottle",
   },
   {
-    type: "video",
+    type: "image",
     src: "https://images.unsplash.com/photo-1523362628745-0c100150b504",
         name: "1L Eco Water Bottle",
   },
