@@ -1,0 +1,36 @@
+@import '../../styles/variables';
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 80vh;
+
+  &__content {
+    background: $gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px;
+
+    h2 {
+      font-size: 48px;
+      line-height: 1.2;
+      margin-bottom: 30px;
+    }
+
+    button {
+      width: 140px;
+      padding: 12px;
+      background: $white;
+      color: $black;
+      border: none;
+      cursor: pointer;
+    }
+  }
+
+  &__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

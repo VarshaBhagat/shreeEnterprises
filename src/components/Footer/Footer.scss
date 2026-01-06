@@ -1,0 +1,26 @@
+.footer {
+  padding: 40px;
+  text-align: center;
+  background: #000;
+
+  &__brand {
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+
+  &__contact a {
+    color: #3dd6c6;
+    text-decoration: none;
+    font-size: 14px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__copy {
+    margin-top: 16px;
+    font-size: 12px;
+    opacity: 0.6;
+  }
+}
