@@ -7,7 +7,7 @@ const bottle2 ='https://images.unsplash.com/photo-1523362628745-0c100150b504'
 const bottle3 ='https://images.unsplash.com/photo-1523362628745-0c100150b504'
 const bottle4 ='https://images.unsplash.com/photo-1523362628745-0c100150b504'
 import BottleCarousel from "../BottleCarousel/BottleCarousel"
-import { bottles } from "../../data/bottles";
+import { bottlesVideo } from "../../data/bottlesVideo";
 
 const items = [bottle1, bottle2, bottle3, bottle4];
 
@@ -16,7 +16,7 @@ export default function Products() {
     <section className="products">
       <h3>Our Bottles</h3>
       <div className="products__grid">
-       <BottleCarousel bottles={bottles}/>
+       <BottleCarousel bottles={bottlesVideo}/>
       </div>
     </section>
   );
