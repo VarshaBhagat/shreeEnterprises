@@ -2,7 +2,7 @@ import './Footer.scss';
 
 export default function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer" id="contact">
       <div className="footer__brand">
         <bold>Contact Us</bold>
       </div>
@@ -11,7 +11,7 @@ export default function Footer() {
         <div>
           📞{" "}
           <a href="tel:+919876543210">
-            +91 98765 43210
+            +91 9538888219
           </a>
         </div>
         <div>  ✉️{" "}

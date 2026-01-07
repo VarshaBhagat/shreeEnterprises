@@ -9,13 +9,9 @@ export default function Hero() {
     <section className="hero">
       <div className="hero-content">
         <h2>Stylish Bottles Tailored for You</h2>
-        <button>Contact us</button>
+        <a href="#contact" className='btn'>Contact us</a>
       </div>
-       <BottleCarousel bottles={bottlesImages}/>
-      {/* <div className="hero-image">
-    <img src={heroImg} alt="Bottle" />
-  </div> */}
+      <BottleCarousel bottles={bottlesImages} />
     </section>
-
   );
 }
